@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Send, Bot, User, Loader, Settings, Database, Shield } from 'lucide-react';
-import './App.css';
+import './app.css';
 
 const SLMChatbot = () => {
   const [messages, setMessages] = useState([
